@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.cont {
+  min-height: 100vh;
+  display: flex;
+  background-color: #002716;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+  font-size: 13vw;
+  background-color: #002716;
+  color: white;
+}
+input {
+  border: 2px solid black;
+  border-radius: 4px;
+  display: block;
+  font-size: 4px;
+  padding: 10px 15px;
+}
+.controls {
+  margin-top: 16px;
+}
+.setAlarm {
+  background-color: green;
+}
+.clearAlarm {
+  background-color: red;
+}
