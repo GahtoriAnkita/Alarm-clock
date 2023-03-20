@@ -13,24 +13,43 @@ body {
 }
 
 #clock {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
+ font-family: "Franklin Gothic Medium", "Arial Narrow", "Arial", "sans-serif";
   font-size: 13vw;
-  background-color: #002716;
+  /* background-color: #002716; */
   color: white;
 }
 input {
+  height: 1.5cm;
+  width: 6cm;
   border: 2px solid black;
-  border-radius: 4px;
+  border-radius: 30px;
   display: block;
-  font-size: 4px;
+  font-size: 5px;
   padding: 10px 15px;
+  background-color: yellow;
 }
 .controls {
   margin-top: 16px;
 }
 .setAlarm {
   background-color: green;
+  border: 2px solid green;
+}
+.stopAlarm {
+  background-color: rgb(226, 60, 18);
+  border: 2px solid red;
 }
 .clearAlarm {
-  background-color: red;
+  background-color: rgb(255, 153, 0);
+  border: 2px solid orange;
 }
+.button{
+  height: 2cm;
+  width: 4.2cm;
+  margin: 60px 50px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
